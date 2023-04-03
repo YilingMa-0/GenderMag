@@ -129,42 +129,6 @@ public class Song<T> {
         br.close();
         return songs;
     }
-
-    //searchSongs() Method to search Songs by their name from unsorted array
-//    public static Song[] searchSongsByName(Song[] songs, String name) {
-//        List<Song> matchingSongs = new ArrayList<>();
-//        for (Song song : songs) {
-//            if (song.getName().equals(name)) {
-//                matchingSongs.add(song);
-//            }
-//        }
-//        return matchingSongs.toArray(new Song[matchingSongs.size()]);
-//    }
-    //searhShongs_year() Method to search Songs by year(first) and then by name(second) from unsorted
-
-
-//    public static List<Song> searchSongs_year(List<Song> songs, int year) {
-//        List<Song> matchingSongs = new ArrayList<>();
-//        for (Song song : songs) {
-//            if (song.getYear() == year) {
-//                matchingSongs.add(song);
-//            }
-//        }
-//        Collections.sort(matchingSongs, new Comparator<Song>() {
-//            @Override
-//            public int compare(Song s1, Song s2) {
-//                int yearComparison = Integer.compare(s1.getYear(), s2.getYear());
-//                if (yearComparison != 0) {
-//                    return yearComparison;
-//                }
-//                return s1.getName().compareTo(s2.getName());
-//            }
-//        });
-//        return matchingSongs;
-//    }
-
-
-
 }
 
 
